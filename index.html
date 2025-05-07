@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="nl" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="nl" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,18 +20,30 @@
     <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <div class="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+                <a href="https://readthisnow.github.io/viral-deals-amazon-nederland-2025-05-07-u7dp3" 
+                   class="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300">
                     Viral Deals
-                </div>
-                <button class="lg:hidden text-gray-600 hover:text-gray-900 transition-colors duration-300">
+                </a>
+                <button class="mobile-menu-button md:hidden text-gray-600 hover:text-gray-900 transition-colors duration-300" 
+                        aria-label="Toggle menu">
                     <i class="fas fa-bars text-2xl"></i>
                 </button>
-                <div class="hidden lg:flex space-x-8">
-                    <a href="#deals" class="text-gray-600 hover:text-purple-600 transition-colors duration-300">Deals</a>
-                    <a href="#voordelen" class="text-gray-600 hover:text-purple-600 transition-colors duration-300">Voordelen</a>
-                    <a href="#faq" class="text-gray-600 hover:text-purple-600 transition-colors duration-300">FAQ</a>
-                    <a href="#contact" class="text-gray-600 hover:text-purple-600 transition-colors duration-300">Contact</a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#deals" class="text-gray-600 hover:text-purple-600 hover:scale-105 transition-all duration-300">Deals</a>
+                    <a href="#voordelen" class="text-gray-600 hover:text-purple-600 hover:scale-105 transition-all duration-300">Voordelen</a>
+                    <a href="#about" class="text-gray-600 hover:text-purple-600 hover:scale-105 transition-all duration-300">Over Ons</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-purple-600 hover:scale-105 transition-all duration-300">Reviews</a>
+                    <a href="#faq" class="text-gray-600 hover:text-purple-600 hover:scale-105 transition-all duration-300">FAQ</a>
+                    <a href="#contact" class="text-gray-600 hover:text-purple-600 hover:scale-105 transition-all duration-300">Contact</a>
                 </div>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg absolute left-0 right-0 p-4">
+                <a href="#deals" class="block py-2 px-4 text-gray-600 hover:bg-purple-50 hover:text-purple-600 rounded transition-colors duration-300">Deals</a>
+                <a href="#voordelen" class="block py-2 px-4 text-gray-600 hover:bg-purple-50 hover:text-purple-600 rounded transition-colors duration-300">Voordelen</a>
+                <a href="#about" class="block py-2 px-4 text-gray-600 hover:bg-purple-50 hover:text-purple-600 rounded transition-colors duration-300">Over Ons</a>
+                <a href="#testimonials" class="block py-2 px-4 text-gray-600 hover:bg-purple-50 hover:text-purple-600 rounded transition-colors duration-300">Reviews</a>
+                <a href="#faq" class="block py-2 px-4 text-gray-600 hover:bg-purple-50 hover:text-purple-600 rounded transition-colors duration-300">FAQ</a>
+                <a href="#contact" class="block py-2 px-4 text-gray-600 hover:bg-purple-50 hover:text-purple-600 rounded transition-colors duration-300">Contact</a>
             </div>
         </nav>
     </header>
@@ -32,18 +52,18 @@
         <section class="pt-32 pb-20 px-6 bg-gradient-to-br from-purple-50 via-pink-50 to-white">
             <div class="container mx-auto text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 mb-6 leading-tight">
-                    Dagelijkse Viral Deals<br>
+                    Ontdek de Beste<br>
                     <span class="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-                        Amazon Nederland
+                        Viral Amazon Deals
                     </span>
                 </h1>
                 <p class="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto">
-                    #tiktokmademebuyit - Mis geen enkele trending deal!
+                    Dagelijks nieuwe #tiktokmademebuyit producten met kortingen tot 70%! Word lid van onze community en mis nooit meer een trending deal.
                 </p>
                 <a href="https://whatsapp.com/channel/0029VbBWx8c6RGJLIuXz3G1J" 
                    class="inline-flex items-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-purple-600 to-pink-600 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
                     <i class="fab fa-whatsapp mr-2"></i>
-                    Join WhatsApp Kanaal
+                    Join 5000+ Deal Hunters
                 </a>
             </div>
         </section>
@@ -54,122 +74,198 @@
                     🔥 Trending Deals van Vandaag
                 </h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 p-6">
+                    <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transform hover:scale-102 transition-all duration-300 p-6">
                         <div class="text-purple-600 text-4xl mb-4">⚡️</div>
-                        <h3 class="text-xl font-bold mb-3">LAATSTE KANS!</h3>
-                        <p class="text-gray-600">Nog maar enkele stuks beschikbaar van deze viral TikTok producten!</p>
+                        <h3 class="text-xl font-bold mb-3">FLASH SALES</h3>
+                        <p class="text-gray-600">Exclusieve deals met maximaal 24 uur beschikbaarheid. Wees er snel bij!</p>
                     </div>
-                    <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 p-6">
+                    <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transform hover:scale-102 transition-all duration-300 p-6">
                         <div class="text-purple-600 text-4xl mb-4">💸</div>
-                        <h3 class="text-xl font-bold mb-3">TOT 70% KORTING</h3>
-                        <p class="text-gray-600">De beste Amazon deals, geselecteerd door ons team!</p>
+                        <h3 class="text-xl font-bold mb-3">MEGA KORTINGEN</h3>
+                        <p class="text-gray-600">Bespaar gemiddeld €30 per deal met onze handpicked selectie van viral producten.</p>
                     </div>
-                    <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 p-6">
+                    <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transform hover:scale-102 transition-all duration-300 p-6">
                         <div class="text-purple-600 text-4xl mb-4">🚀</div>
-                        <h3 class="text-xl font-bold mb-3">DAGELIJKS NIEUWE DEALS</h3>
-                        <p class="text-gray-600">Elke dag verse TikTok trending producten!</p>
+                        <h3 class="text-xl font-bold mb-3">TRENDING NOW</h3>
+                        <p class="text-gray-600">De nieuwste TikTok viral producten, direct leverbaar via Amazon Nederland.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="voordelen" class="py-20 px-6 bg-gradient-to-br from-purple-50 to-white">
+        <section id="about" class="py-20 px-6 bg-gradient-to-br from-purple-50 to-white">
+            <div class="container mx-auto max-w-4xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-900">Over Viral Deals</h2>
+                <div class="space-y-8 text-gray-600">
+                    <p class="leading-relaxed">
+                        Viral Deals begon in 2023 als een passieproject van drie Nederlandse TikTok-enthousiastelingen die gefrustreerd waren over gemiste deals en uitverkochte trending producten. We besloten om onze expertise te bundelen en een community te bouwen waar deal-hunters elkaar kunnen helpen om de beste aanbiedingen te scoren.
+                    </p>
+                    <p class="leading-relaxed">
+                        Onze missie is simpel: we willen de toegankelijkste en meest betrouwbare bron zijn voor viral Amazon deals in Nederland. We geloven in transparantie, community en het delen van echte ervaringen. Elke deal wordt zorgvuldig door ons team gecontroleerd op prijs, kwaliteit en authenticiteit.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-20 px-6">
             <div class="container mx-auto">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-900">
-                    Waarom Viral Deals? 🤔
+                    Wat Onze Community Zegt
                 </h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div class="flex items-start space-x-4">
-                        <div class="flex-shrink-0 w-12 h-12 flex items-center justify-center rounded-full bg-purple-100">
-                            <i class="fas fa-check text-purple-600 text-xl"></i>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-102 transition-all duration-300 p-6">
+                        <div class="flex items-center mb-4">
+                            <span class="text-yellow-400">★★★★★</span>
+                            <span class="ml-2 font-semibold">Lisa van Bergen</span>
                         </div>
-                        <div>
-                            <h3 class="text-xl font-bold mb-2">Direct op de Hoogte</h3>
-                            <p class="text-gray-600">Ontvang als eerste de beste deals via ons WhatsApp kanaal!</p>
-                        </div>
+                        <p class="text-gray-600 mb-2">Beauty Influencer</p>
+                        <p class="text-gray-700">"Dankzij Viral Deals heb ik al 3x die ene viral skincare tool kunnen scoren voordat die uitverkocht was. De WhatsApp alerts zijn echt een gamechanger!"</p>
                     </div>
-                    <div class="flex items-start space-x-4">
-                        <div class="flex-shrink-0 w-12 h-12 flex items-center justify-center rounded-full bg-purple-100">
-                            <i class="fas fa-percentage text-purple-600 text-xl"></i>
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-102 transition-all duration-300 p-6">
+                        <div class="flex items-center mb-4">
+                            <span class="text-yellow-400">★★★★★</span>
+                            <span class="ml-2 font-semibold">Mark Jansen</span>
                         </div>
-                        <div>
-                            <h3 class="text-xl font-bold mb-2">Beste Prijzen</h3>
-                            <p class="text-gray-600">Wij zoeken dagelijks naar de scherpste aanbiedingen!</p>
+                        <p class="text-gray-600 mb-2">Tech Enthusiast</p>
+                        <p class="text-gray-700">"Gemiddeld bespaar ik €25 per aankoop. Hun deals zijn altijd legitiem en de prijzen zijn echt de laagste die je kunt vinden."</p>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-102 transition-all duration-300 p-6">
+                        <div class="flex items-center mb-4">
+                            <span class="text-yellow-400">★★★★★</span>
+                            <span class="ml-2 font-semibold">Emma de Vries</span>
                         </div>
+                        <p class="text-gray-600 mb-2">Lifestyle Blogger</p>
+                        <p class="text-gray-700">"Super fijn dat ze alleen deals delen van producten die ze zelf hebben getest. Zo weet je zeker dat je geen kat in de zak koopt."</p>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-102 transition-all duration-300 p-6">
+                        <div class="flex items-center mb-4">
+                            <span class="text-yellow-400">★★★★★</span>
+                            <span class="ml-2 font-semibold">Thomas Bakker</span>
+                        </div>
+                        <p class="text-gray-600 mb-2">Smart Home Expert</p>
+                        <p class="text-gray-700">"De community is super behulpzaam en de deals worden razendsnel gedeeld. Al meer dan €200 bespaard op mijn laatste aankopen!"</p>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="faq" class="py-20 px-6">
-            <div class="container mx-auto max-w-4xl">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-900">
-                    Veelgestelde Vragen
-                </h2>
-                <div class="space-y-6">
-                    <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-6">
-                        <h3 class="text-xl font-bold mb-3">Hoe werkt het?</h3>
-                        <p class="text-gray-600">Join ons WhatsApp kanaal en ontvang dagelijks de beste viral deals!</p>
+            <section id="faq" class="py-20 px-6 bg-gradient-to-br from-purple-50 to-white">
+                <div class="container mx-auto max-w-4xl">
+                    <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 text-gray-900">
+                        Veelgestelde Vragen
+                    </h2>
+                    <div class="space-y-6">
+                        <div class="bg-white rounded-xl shadow-md hover:shadow-lg transform hover:scale-102 transition-all duration-300 p-6">
+                            <h3 class="text-xl font-bold mb-3">Hoe vaak worden er nieuwe deals geplaatst?</h3>
+                            <p class="text-gray-600">We delen dagelijks minimaal 3-5 nieuwe deals in ons WhatsApp kanaal, met extra flash sales tijdens prime days en feestdagen.</p>
+                        </div>
+                        <div class="bg-white rounded-xl shadow-md hover:shadow-lg transform hover:scale-102 transition-all duration-300 p-6">
+                            <h3 class="text-xl font-bold mb-3">Zijn alle producten direct leverbaar?</h3>
+                            <p class="text-gray-600">Ja, we delen alleen deals van producten die op dat moment op voorraad zijn bij Amazon Nederland met Prime verzending.</p>
+                        </div>
+                        <div class="bg-white rounded-xl shadow-md hover:shadow-lg transform hover:scale-102 transition-all duration-300 p-6">
+                            <h3 class="text-xl font-bold mb-3">Hoe weet ik of een deal echt voordelig is?</h3>
+                            <p class="text-gray-600">We controleren alle prijshistorie en delen alleen deals met minimaal 20% echte korting ten opzichte van de normale prijs.</p>
+                        </div>
+                        <div class="bg-white rounded-xl shadow-md hover:shadow-lg transform hover:scale-102 transition-all duration-300 p-6">
+                            <h3 class="text-xl font-bold mb-3">Kan ik zelf deals voorstellen?</h3>
+                            <p class="text-gray-600">Absoluut! In ons WhatsApp kanaal kun je deals delen die jij hebt gevonden. Ons team controleert deze dan op legitimiteit.</p>
+                        </div>
+                        <div class="bg-white rounded-xl shadow-md hover:shadow-lg transform hover:scale-102 transition-all duration-300 p-6">
+                            <h3 class="text-xl font-bold mb-3">Wat als een product niet bevalt?</h3>
+                            <p class="text-gray-600">Alle aankopen vallen onder Amazon's standaard retourbeleid van 30 dagen. Wij helpen je graag bij eventuele vragen of problemen.</p>
+                        </div>
                     </div>
-                    <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-6">
-                        <h3 class="text-xl font-bold mb-3">Zijn de deals betrouwbaar?</h3>
-                        <p class="text-gray-600">Alle deals zijn van Amazon Nederland en 100% veilig!</p>
-                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="contact" class="py-20 px-6 bg-gradient-to-br from-purple-50 to-white">
-            <div class="container mx-auto text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8 text-gray-900">
-                    Join de Community! 🎉
-                </h2>
-                <a href="https://whatsapp.com/channel/0029VbBWx8c6RGJLIuXz3G1J" 
-                   class="inline-flex items-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-purple-600 to-pink-600 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
-                    <i class="fab fa-whatsapp mr-2"></i>
-                    Word lid van ons WhatsApp Kanaal
-                </a>
-            </div>
-        </section>
-    </main>
-
-    <footer class="bg-gray-900 text-white py-12 px-6">
-        <div class="container mx-auto">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Viral Deals</h3>
-                    <p class="text-gray-400">De beste Amazon deals, dagelijks voor jou geselecteerd!</p>
-                </div>
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Contact</h3>
-                    <p class="text-gray-400">support@viraldeals.nl</p>
-                </div>
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Links</h3>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Volg Ons</h3>
-                    <div class="flex space-x-4">
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
-                            <i class="fab fa-tiktok text-2xl"></i>
-                        </a>
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
-                            <i class="fab fa-instagram text-2xl"></i>
-                        </a>
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
-                            <i class="fab fa-whatsapp text-2xl"></i>
+            <section id="contact" class="py-20 px-6" style="background-image: url('https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=1920'); background-size: cover; background-position: center;">
+                <div class="container mx-auto text-center">
+                    <div class="bg-white/90 backdrop-blur-sm rounded-3xl p-12 max-w-2xl mx-auto">
+                        <h2 class="text-3xl md:text-4xl font-bold mb-8 text-gray-900">
+                            Word Deel van de Community! 🎉
+                        </h2>
+                        <p class="text-xl text-gray-700 mb-8">
+                            Join 5000+ smart shoppers en bespaar gemiddeld €30 per deal!
+                        </p>
+                        <a href="https://whatsapp.com/channel/0029VbBWx8c6RGJLIuXz3G1J" 
+                           class="inline-flex items-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-purple-600 to-pink-600 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+                            <i class="fab fa-whatsapp mr-2"></i>
+                            Join WhatsApp Kanaal
                         </a>
                     </div>
                 </div>
+            </section>
+        </main>
+
+        <footer class="bg-gray-900 text-white py-12 px-6">
+            <div class="container mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div>
+                        <h3 class="text-xl font-bold mb-4">Viral Deals</h3>
+                        <p class="text-gray-400">Dé #1 community voor Amazon deals in Nederland!</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-4">Contact</h3>
+                        <p class="text-gray-400">support@viraldeals.nl</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-4">Links</h3>
+                        <ul class="space-y-2 text-gray-400">
+                            <li><a href="https://readthisnow.github.io/viral-deals-amazon-nederland-2025-05-07-u7dp3/privacy.html" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                            <li><a href="https://readthisnow.github.io/viral-deals-amazon-nederland-2025-05-07-u7dp3/terms.html" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                            <li><a href="https://readthisnow.github.io/viral-deals-amazon-nederland-2025-05-07-u7dp3/blog.html" class="hover:text-white transition-colors duration-300">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-4">Volg Ons</h3>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-gray-400 hover:text-white transform hover:scale-110 transition-all duration-300">
+                                <i class="fab fa-tiktok text-2xl"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-white transform hover:scale-110 transition-all duration-300">
+                                <i class="fab fa-instagram text-2xl"></i>
+                            </a>
+                            <a href="https://whatsapp.com/channel/0029VbBWx8c6RGJLIuXz3G1J" class="text-gray-400 hover:text-white transform hover:scale-110 transition-all duration-300">
+                                <i class="fab fa-whatsapp text-2xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
+                    <p>&copy; 2024 Viral Deals Amazon Nederland. Alle rechten voorbehouden.</p>
+                </div>
             </div>
-            <div class="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
-                <p>&copy; 2024 Viral Deals Amazon Nederland. Alle rechten voorbehouden.</p>
-            </div>
-        </div>
-    </footer>
+        </footer>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+                const mobileMenu = document.querySelector('header nav .mobile-menu');
+                
+                if (mobileMenuButton && mobileMenu) {
+                    mobileMenuButton.addEventListener('click', () => {
+                        mobileMenu.classList.toggle('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.toggle('fa-bars');
+                            icon.classList.toggle('fa-times');
+                        }
+                    });
+
+                    const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                    mobileMenuLinks.forEach(link => {
+                        link.addEventListener('click', () => {
+                            mobileMenu.classList.add('hidden');
+                            const icon = mobileMenuButton.querySelector('i');
+                            if (icon) {
+                                icon.classList.remove('fa-times');
+                                icon.classList.add('fa-bars');
+                            }
+                        });
+                    });
+                }
+            });
+        </script>
+    </body>
 </body>
 </html>
