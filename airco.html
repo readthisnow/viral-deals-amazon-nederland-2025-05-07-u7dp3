@@ -7,24 +7,22 @@
 <style>
     body { font-family: Arial, sans-serif; background: #f8f8f8; margin: 0; padding: 0; }
     .container { max-width: 600px; margin: auto; background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.2); }
-    h1 { color: #111; font-size: 26px; text-align: center; }
-    .subheadline { color: #e53935; font-weight: bold; font-size: 20px; text-align: center; margin: 10px 0; }
-    img { width: 100%; border-radius: 10px; margin: 20px 0; }
-    .price { font-size: 28px; color: #e91e63; text-align: center; margin: 20px 0; font-weight: bold; }
-    ul { font-size: 18px; padding-left: 20px; margin-bottom: 20px; }
-    .stock { text-align: center; font-size: 20px; color: #d32f2f; margin-bottom: 10px; }
-    .timer { font-size: 22px; text-align: center; color: #d32f2f; font-weight: bold; margin-bottom: 20px; }
+    h1 { color: #111; font-size: 24px; text-align: center; margin-bottom: 10px; }
+    .subheadline { color: #e53935; font-weight: bold; font-size: 18px; text-align: center; margin: 10px 0; }
+    .price { font-size: 26px; color: #e91e63; text-align: center; margin: 10px 0; font-weight: bold; }
     .cta { 
         display: block; 
         background: linear-gradient(90deg, #ff5722 0%, #ff7043 100%); 
         color: #fff; 
         text-align: center; 
-        padding: 20px; 
+        padding: 16px; 
         border-radius: 50px; 
         text-decoration: none; 
-        font-size: 22px; 
+        font-size: 20px; 
         font-weight: bold; 
-        margin-top: 20px;
+        margin: 20px auto;
+        width: 90%;
+        max-width: 400px;
         animation: pulse 2s infinite;
         box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     }
@@ -33,6 +31,9 @@
         50% { transform: scale(1.05); }
         100% { transform: scale(1); }
     }
+    img { width: 100%; border-radius: 10px; margin: 10px 0; }
+    ul { font-size: 16px; padding-left: 20px; margin-bottom: 20px; }
+    .stock, .timer { text-align: center; font-size: 18px; color: #d32f2f; margin-bottom: 10px; font-weight: bold; }
     footer { font-size: 12px; color: #777; margin-top: 40px; text-align: center; }
 </style>
 </head>
@@ -41,24 +42,25 @@
 <div class="container">
     <h1>🔥 EXCLUSIEVE FLASH DEAL: Mobiele Airco</h1>
     <div class="subheadline">Vandaag besteld = Morgen in huis!</div>
+    <div class="price">Tijdelijk Slechts €99</div>
+
+    <a class="cta" href="https://www.amazon.nl/airconditioner-luchtafvoerslang-ontvochtiger-ecologisch-koelmiddel/dp/B0861BCV62?tag=laptoplifepro-21" target="_blank">
+        👉 DIRECT BESTELLEN
+    </a>
 
     <img src="mobieleairco.png" alt="Mobiele Airco Actie">
 
-    <div class="price">Tijdelijk Voor Maar €99</div>
-
-    <div class="stock">OP=OP: Nog maar <span id="stock">7</span> stuks op voorraad!</div>
-
+    <div class="stock">OP=OP: Nog maar <span id="stock">7</span> stuks beschikbaar!</div>
     <div class="timer">Aanbieding verloopt over: <span id="countdown"></span></div>
 
     <ul>
-        <li>❄️ Direct IJSKOUDE lucht binnen 10 minuten</li>
-        <li>🌡️ 3-in-1: Koelen, ontvochtigen & ventileren</li>
-        <li>🔥 MORGEN AL Heerlijk koel slapen en relaxen</li>
-        <li>🚀 Levering binnen 24 uur uit voorraad</li>
-         </ul>
+        <li>❄️ Direct IJSKOUDE lucht in je kamer</li>
+        <li>🔥 MORGEN AL Heerlijk KOEL slapen</li>
+        <li>🚀 Levering binnen 24 uur</li>
+    </ul>
 
     <a class="cta" href="https://www.amazon.nl/airconditioner-luchtafvoerslang-ontvochtiger-ecologisch-koelmiddel/dp/B0861BCV62?tag=laptoplifepro-21" target="_blank">
-        👉 BESTEL NU MET KORTING
+        ✅ BESTEL NU EN MIS DIT NIET!
     </a>
 
     <footer>
@@ -67,7 +69,6 @@
 </div>
 
 <script>
-// Simpele 15 minuten countdown
 let countdownMinutes = 15;
 let countdownSeconds = countdownMinutes * 60;
 const countdownEl = document.getElementById("countdown");
@@ -103,5 +104,6 @@ src="https://c.statcounter.com/13143840/0/e9033b0b/1/"
 alt="Web Analytics"
 referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <!-- End of Statcounter Code -->
+
 </body>
 </html>
